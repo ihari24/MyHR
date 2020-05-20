@@ -67,7 +67,7 @@ stages:
           ConnectionType: 'AzureRM'
           azureSubscription: 'Free Trial(4839268f-bf28-4d9e-8c52-1301b7624db5)'
           appType: 'webApp'
-          WebAppName: 
+          WebAppName: 'myhrapp2005'
           packageForLinux: '$(System.ArtifactsDirectory)/drop/*.zip'
 
 
