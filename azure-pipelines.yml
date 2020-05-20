@@ -62,5 +62,12 @@ stages:
           downloadPath: '$(System.ArtifactsDirectory)'
           artifactName: 'drop'
 
-      
+      - task: AzureRmWebAppDeployment@4
+        inputs:
+          ConnectionType: 'AzureRM'
+          azureSubscription: 'Free Trial(4839268f-bf28-4d9e-8c52-1301b7624db5)'
+          appType: 'webApp'
+          WebAppName: 
+          packageForLinux: '$(System.ArtifactsDirectory)/drop/*.zip'
+
 
