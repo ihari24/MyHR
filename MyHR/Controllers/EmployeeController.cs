@@ -29,7 +29,7 @@ namespace MyHR.Controllers
             employee.lastName = "Akula";
             employee.title = "Jr Developer";
             employee.DOB = new DateTime(1994, 01, 23);
-            employee.salary = "3000";
+            employee.salary = "300000";
 
             return View(employee);
         }
