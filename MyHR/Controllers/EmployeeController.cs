@@ -25,7 +25,7 @@ namespace MyHR.Controllers
         {
             var employee = new Employee();
 
-            employee.firstName = "Hari";
+            employee.firstName = "Hareesh";
             employee.lastName = "Akula";
             employee.title = "Jr Developer";
             employee.DOB = new DateTime(1994, 01, 23);
